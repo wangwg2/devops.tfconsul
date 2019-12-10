@@ -21,8 +21,8 @@ variable "private_key_path" {
 variable "ami" {
   type = map(string)
   default = {
-    "cn-northwest-1" = "ami-f96c7b9b"
-    "cn-north-1"     = "ami-0510c868"
+    "cn-northwest-1" = "ami-116a7d73"
+    "cn-north-1"     = "ami-9a06def7"
   }
 
   description = "The AMIs to use for consul instances."
