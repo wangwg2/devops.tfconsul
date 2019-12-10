@@ -14,7 +14,8 @@ fi
 echo "Fetching Consul..."
 CONSUL=1.5.2
 cd /tmp
-curl https://releases.hashicorp.com/consul/${CONSUL}/consul_${CONSUL}_linux_amd64.zip -o consul.zip
+# curl https://releases.hashicorp.com/consul/${CONSUL}/consul_${CONSUL}_linux_amd64.zip -o consul.zip
+curl https://aivlk-repo.s3.cn-northwest-1.amazonaws.com.cn/consul_${CONSUL}_linux_amd64.zip -o consul.zip
 
 echo "Installing Consul..."
 unzip consul.zip >/dev/null
