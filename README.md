@@ -4,7 +4,7 @@ A lightweight Consul service module for The Terraform Book.
 
 ## Usage
 
-```hcl
+```terraform
 variable "token" {}
 
 variable "encryption_key" {}
